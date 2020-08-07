@@ -16,7 +16,7 @@
 terraform {
   backend "gcs" {
     bucket = "i2aabella-tfstate"
-    prefix = "env/${local.env}"
+    prefix = "env/dev"
   }
 }
 
